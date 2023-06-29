@@ -19,9 +19,5 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Opens Todos in Telescope!" },
     },
   },
-  {
-    "linux-cultist/venv-selector.nvim",
-    opts = {},
-    keys = { { "<leader>lv", "<cmd>:VenvSelect<cr>", desc = "Select VirtualEnv" } },
-  },
+
 }
